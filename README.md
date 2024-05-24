@@ -17,14 +17,14 @@ This is a FastAPI project to manage banks and their branches using PostgreSQL an
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/yourproject.git
-    cd yourproject
+    git clone [https://github.com/yourusername/yourproject.git](https://github.com/kanhaiyagupta9045/Postgres-and-FastAPI-.git)
+    cd Postgres-and-FastAPI-
     ```
 
 2. Create a virtual environment and activate it:
     ```sh
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    virtualenv env
+    source env/bin/activate  # On Windows use `.\env\Scripts\activate`
     ```
 
 3. Install the dependencies:
@@ -34,7 +34,7 @@ This is a FastAPI project to manage banks and their branches using PostgreSQL an
 
 4. Set up the PostgreSQL database and update the database URL in your environment variables:
     ```sh
-    DATABASE_URL=postgresql+asyncpg://username:password@localhost/dbname
+    DATABASE_URL=postgresql://username:password@localhost/dbname
     ```
 
 ## Database Models
