@@ -1,1 +1,3 @@
-# FastAPI with Postgres
+## FastAPI with Postgres
+
+### Tech Stack
